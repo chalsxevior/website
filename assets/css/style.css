@@ -386,11 +386,13 @@ textarea.form-control {
 }
 
 .start {
-	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-family: Verdana, Raleway, "Times New Roman", Times, sans-serif;
 	font-size: 16px;
 	font-style: normal;
 	text-transform: none;
-	margin: 15px 0;
+	max-width: 60%;
+    margin: auto;
+    text-align: justify;
 }
 
 /* ---------------------------------------------- /*
@@ -702,6 +704,9 @@ textarea.form-control {
 		font-size: 24px;
 		margin: 0 0 30px;
 		letter-spacing: 3px;
+	}
+	.start {
+		max-width: 95%;
 	}
 
 }
